@@ -63,3 +63,15 @@ img {
   display: flex;
   align-items: flex-start;
 }
+
+#titulo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20rem;
+}
+
+button{
+  background-color: aquamarine;
+  font-weight: 600;
+}
