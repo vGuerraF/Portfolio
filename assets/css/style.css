@@ -7,14 +7,41 @@
 
 html {
   scroll-behavior: smooth;
+  background: #7fffd4;
+  background: linear-gradient(
+    0deg,
+    #7fffd400 0%,
+    #7fffd457 50%,
+    #7fffd4b8 100%
+  );
 }
 
 nav {
-  background-color: aquamarine;
+  background-color: #4bc89e;
   padding: 0.5rem;
   width: 100%;
   position: fixed;
   top: 0;
+}
+
+footer{
+  background-color: #4bc89e;
+  padding: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#divFooter{
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: space-around;
+  width:15rem
+}
+
+#footerName{
+  color: #bfffea;
+  font-weight: 400;
 }
 
 ul#menu {
@@ -51,8 +78,8 @@ ul#menu li a {
 }
 
 header {
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   margin: 1.4rem 1.2rem 8rem 1.2rem;
   align-items: center;
@@ -73,7 +100,7 @@ header {
 }
 
 button {
-  background-color: #80ffd4;
+  background-color: #63e2b8;
   font-weight: 600;
   transition: all 0.2s ease;
   border: none;
@@ -84,17 +111,16 @@ button {
 }
 
 button:hover {
-  background-color: #29b889;
+  background-color: #26a87d;
 }
 
 #image1 {
   width: fit-content;
-  height: 22rem;
+  height: 30rem;
 }
 
-#div1 {
+#divTitulo {
   display: flex;
-  align-items: flex-start;
 }
 
 main {
@@ -105,10 +131,10 @@ main {
   align-items: center;
 }
 
-#section1 {
+#sectionSm {
   width: 28rem;
   text-align: center;
-  margin: 0rem 0rem 5rem 0rem;
+  margin: 0rem 0rem 8rem 0rem;
 }
 
 #sobremimsub {
@@ -117,31 +143,19 @@ main {
   font-size: 1rem;
 }
 
-#section2 {
+#sectionProjeto {
   text-align: center;
-  margin: 0rem 0rem 4rem 0rem;
+  margin: 0rem 0rem 8rem 0rem;
 }
 
-#detetive{
-  margin: 1.5rem;
-}
-
-#section3 {
-  text-align: center;
-  margin: 0rem 0rem 5rem 0rem;
-}
-
-#tecnologias {
-  margin: 1.5rem;
-}
-
-#div2 {
+#divProjeto {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  gap: 2.5rem;
+  gap: 4rem;
 }
+
 
 #detetive:hover {
   background-image: url(/assets/images/icons8-detetive.gif);
@@ -223,12 +237,21 @@ main {
   background-size: cover;
 }
 
-#div3 {
+#sectionTec {
+  text-align: center;
+  margin: 0rem 0rem 8rem 0rem;
+}
+
+#divTec {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   gap: 1.5rem;
+}
+
+#tecnologias {
+  margin: 2rem;
 }
 
 #html:hover {
@@ -241,6 +264,24 @@ main {
 
 #css:hover {
   background-color: #80ffd4;
+}
+
+#sectionCont {
+  text-align: center;
+  margin: 0rem 0rem 8rem 0rem;
+}
+
+#divCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (max-width: 756px) {
