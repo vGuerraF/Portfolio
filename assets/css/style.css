@@ -1,19 +1,32 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
-  background: #7fffd4;
+}
+
+body {
+  width: 100%;
+  background: rgb(127, 255, 212);
   background: linear-gradient(
     0deg,
-    #7fffd400 0%,
-    #7fffd457 50%,
-    #7fffd4b8 100%
+    rgba(127, 255, 212, 0.04275213503370101) 0%,
+    rgba(127, 255, 212, 0.4265056364342612) 50%,
+    rgba(127, 255, 212, 0.6870098381149334) 100%
   );
+}
+
+main {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 nav {
@@ -22,26 +35,6 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
-}
-
-footer{
-  background-color: #4bc89e;
-  padding: 0.5rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-#divFooter{
-  font-size: 0.6rem;
-  display: flex;
-  justify-content: space-around;
-  width:15rem
-}
-
-#footerName{
-  color: #bfffea;
-  font-weight: 400;
 }
 
 ul#menu {
@@ -77,12 +70,14 @@ ul#menu li a {
   font-weight: 650;
 }
 
-header {
+#sectionTitulo {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin: 1.4rem 1.2rem 8rem 1.2rem;
+  justify-content: space-evenly;
+  margin: 1.4rem 0rem 5rem 0rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 #titulo {
@@ -123,39 +118,38 @@ button:hover {
   display: flex;
 }
 
-main {
-  margin: 1.2rem 1.2rem 1.2rem 1.2rem;
-  font-size: 1.1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 #sectionSm {
   width: 28rem;
   text-align: center;
-  margin: 0rem 0rem 8rem 0rem;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+#sobremim {
+  padding: 2rem;
 }
 
 #sobremimsub {
-  margin: 0.8rem;
   font-weight: 400;
   font-size: 1rem;
 }
 
 #sectionProjeto {
+  flex-wrap: wrap;
   text-align: center;
-  margin: 0rem 0rem 8rem 0rem;
+  margin: 3rem 2rem;
 }
 
 #divProjeto {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   gap: 4rem;
 }
 
+#projetos {
+  padding: 2rem;
+}
 
 #detetive:hover {
   background-image: url(/assets/images/icons8-detetive.gif);
@@ -239,7 +233,7 @@ main {
 
 #sectionTec {
   text-align: center;
-  margin: 0rem 0rem 8rem 0rem;
+  margin: 3rem 0rem 3rem 0rem;
 }
 
 #divTec {
@@ -251,7 +245,7 @@ main {
 }
 
 #tecnologias {
-  margin: 2rem;
+  padding: 2rem;
 }
 
 #html:hover {
@@ -268,7 +262,8 @@ main {
 
 #sectionCont {
   text-align: center;
-  margin: 0rem 0rem 8rem 0rem;
+  margin: 0rem 0rem 2rem 0rem;
+  padding: 2.5rem;
 }
 
 #divCont {
@@ -282,15 +277,96 @@ main {
 
 a {
   text-decoration: none;
+  color: #1d1c1c;
 }
 
-@media (max-width: 756px) {
+footer {
+  background-color: #4bc89e;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+#divFooter {
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+#footerName {
+  color: #bfffea;
+  font-weight: 400;
+}
+
+/* @media (max-width: 838px) {
   #image1 {
-    height: 18rem;
+    height: 25rem;
+  }
+  #titulo {
+    width: 15rem;
+  }
+  header {
+    justify-content: space-between;
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 678px) {
+  #image1 {
+    height: 20rem;
+  }
+  #titulo {
+    width: 10rem;
+    font-size: 0.7rem;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 518px) {
+  #image1 {
+    height: 15rem;
+  }
+  #titulo {
+    width: 7rem;
+    font-size: 0.5rem;
+  }
+
+  #subtitulo {
+    font-size: 0.6rem;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+} */
+
+/* @media (max-width: 390px) {
+  #image1 {
+    height: 12rem;
+  }
+  #titulo {
+    width: 5rem;
+    font-size: 0.4rem;
+  }
+
+  #subtitulo {
+    font-size: 0.4rem;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+} */
+
+/* display: flex;
+  flex-direction: column;
+  width: 20rem;
+  font-size: 1rem;
+  margin: 2.5rem 0rem 0rem 0rem;
+  align-items: center; */
+/* @media (max-width: 667px) {
   #image1 {
     height: 14rem;
   }
@@ -307,6 +383,15 @@ a {
   #titulo {
     width: 9rem;
     font-size: 0.5rem;
+  }
+  main {
+    font-size: 0.7rem;
+  }
+  #sobremimsub {
+    font-size: 0.7rem;
+  }
+  button{
+    padding: 0.4rem;
   }
 }
 
@@ -358,4 +443,4 @@ a {
   #portfolio a {
     font-size: 0.7rem;
   }
-}
+} */
