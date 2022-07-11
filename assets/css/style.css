@@ -5,9 +5,16 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   background-color: aquamarine;
   padding: 0.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 ul#menu {
@@ -43,35 +50,271 @@ ul#menu li a {
   font-weight: 650;
 }
 
-main {
-  margin: 1.5rem 1.5rem 1.5rem 1.5rem;
-  font-size: 0.8rem;
-}
-
 header {
   flex-direction: row;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin: 1.4rem 1.2rem 8rem 1.2rem;
+  align-items: center;
 }
 
-img {
+#titulo {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  font-size: 1rem;
+  margin: 2.5rem 0rem 0rem 0rem;
+  align-items: center;
+}
+
+#subtitulo {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+button {
+  background-color: #80ffd4;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  border: none;
+  margin: 0.5rem 0rem 0rem 0rem;
+  cursor: pointer;
+  padding: 0.6rem;
   width: fit-content;
-  height: 15rem;
 }
 
-#image {
+button:hover {
+  background-color: #29b889;
+}
+
+#image1 {
+  width: fit-content;
+  height: 22rem;
+}
+
+#div1 {
   display: flex;
   align-items: flex-start;
 }
 
-#titulo{
+main {
+  margin: 1.2rem 1.2rem 1.2rem 1.2rem;
+  font-size: 1.1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 20rem;
+  align-items: center;
 }
 
-button{
-  background-color: aquamarine;
-  font-weight: 600;
+#section1 {
+  width: 28rem;
+  text-align: center;
+  margin: 0rem 0rem 5rem 0rem;
+}
+
+#sobremimsub {
+  margin: 0.8rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#section2 {
+  text-align: center;
+  margin: 0rem 0rem 4rem 0rem;
+}
+
+#detetive{
+  margin: 1.5rem;
+}
+
+#section3 {
+  text-align: center;
+  margin: 0rem 0rem 5rem 0rem;
+}
+
+#tecnologias {
+  margin: 1.5rem;
+}
+
+#div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+#detetive:hover {
+  background-image: url(/assets/images/icons8-detetive.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#detetive {
+  padding: 2.5rem;
+  transition: all 0.5s ease;
+  background-image: url(/assets/images/icons8-detetive-90.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#jokenpo:hover {
+  background-image: url(/assets/images/icons8-paper-hand-96.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#jokenpo {
+  padding: 2.5rem;
+  transition: all 0.5s ease;
+  background-image: url(/assets/images/icons8-rock-hand-96.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#jornada:hover {
+  background-image: url(/assets/images/icons8-haltere.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#jornada {
+  padding: 2.5rem;
+  transition: all 0.5s ease;
+  background-image: url(/assets/images/haltercerto.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#velha:hover {
+  background-image: url(/assets/images/essetictacverde.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#velha {
+  padding: 2.5rem;
+  transition: all 0.5s ease;
+  background-image: url(/assets/images/essetictac.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#interativo:hover {
+  background-image: url(/assets/images/icons8-pokeball-aberto-96.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#interativo {
+  padding: 2.5rem;
+  transition: all 0.5s ease;
+  background-image: url(/assets/images/icons8-pokebola-96.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#div3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#html:hover {
+  background-color: #80ffd4;
+}
+
+#js:hover {
+  background-color: #80ffd4;
+}
+
+#css:hover {
+  background-color: #80ffd4;
+}
+
+@media (max-width: 756px) {
+  #image1 {
+    height: 18rem;
+  }
+}
+
+@media (max-width: 667px) {
+  #image1 {
+    height: 14rem;
+  }
+  #titulo {
+    width: 11rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 509px) {
+  #image1 {
+    height: 10rem;
+  }
+  #titulo {
+    width: 9rem;
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  #image1 {
+    height: 7rem;
+  }
+  #titulo {
+    width: 8rem;
+    font-size: 0.4rem;
+  }
+}
+
+@media (max-width: 303px) {
+  #image1 {
+    height: 5rem;
+  }
+  #titulo {
+    width: 7rem;
+    font-size: 0.3rem;
+  }
+}
+
+@media (max-width: 280px) {
+  #image1 {
+    height: 4rem;
+  }
+  #titulo {
+    width: 6rem;
+    font-size: 0.2rem;
+  }
+
+  ul#menu div {
+    display: flex;
+    font-size: 0.2rem;
+  }
+
+  #portfolio a {
+    font-size: 0.4rem;
+  }
+}
+
+@media (max-width: 471px) {
+  ul#menu div {
+    display: flex;
+    font-size: 0.5rem;
+  }
+
+  #portfolio a {
+    font-size: 0.7rem;
+  }
 }
