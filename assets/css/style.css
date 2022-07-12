@@ -41,7 +41,6 @@ ul#menu {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -134,9 +133,11 @@ button:hover {
 }
 
 #sectionProjeto {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-  margin: 3rem 2rem;
+  margin: 4rem 2rem;
 }
 
 #divProjeto {
@@ -147,12 +148,20 @@ button:hover {
   gap: 4rem;
 }
 
+.classProjeto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 6rem;
+  gap: 1.5rem;
+}
+
 #projetos {
   padding: 2rem;
 }
 
 #detetive:hover {
-  background-image: url(./assets/images/icons8-detetive.gif);
+  background-image: url(/assets/images/icons8-detetive.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
