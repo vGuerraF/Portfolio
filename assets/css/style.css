@@ -161,7 +161,7 @@ button:hover {
 }
 
 #detetive:hover {
-  background-image: url(/assets/images/icons8-detetive.gif);
+  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-detetive.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -170,14 +170,14 @@ button:hover {
 #detetive {
   padding: 2.5rem;
   transition: all 0.5s ease;
-  background-image: url(/assets/images/icons8-detetive-90.png);
+  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-detetive-90.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #jokenpo:hover {
-  background-image: url(/assets/images/icons8-paper-hand-96.png);
+  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-paper-hand-96.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -186,14 +186,14 @@ button:hover {
 #jokenpo {
   padding: 2.5rem;
   transition: all 0.5s ease;
-  background-image: url(/assets/images/icons8-rock-hand-96.png);
+  background-image: url(/https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-rock-hand-96.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #jornada:hover {
-  background-image: url(/assets/images/icons8-haltere.gif);
+  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-haltere.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -202,14 +202,14 @@ button:hover {
 #jornada {
   padding: 2.5rem;
   transition: all 0.5s ease;
-  background-image: url(/assets/images/haltercerto.png);
+  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/haltercerto.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #velha:hover {
-  background-image: url(/assets/images/essetictacverde.png);
+  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/essetictacverde.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -218,14 +218,14 @@ button:hover {
 #velha {
   padding: 2.5rem;
   transition: all 0.5s ease;
-  background-image: url(/assets/images/essetictac.png);
+  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/essetictac.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #interativo:hover {
-  background-image: url(/assets/images/icons8-pokeball-aberto-96.png);
+  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-pokeball-aberto-96.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -234,7 +234,7 @@ button:hover {
 #interativo {
   padding: 2.5rem;
   transition: all 0.5s ease;
-  background-image: url(/assets/images/icons8-pokebola-96.png);
+  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-pokebola-96.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
