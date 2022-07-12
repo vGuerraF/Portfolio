@@ -148,7 +148,7 @@ button:hover {
   gap: 4rem;
 }
 
-.classProjeto{
+.classProjeto {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -186,7 +186,7 @@ button:hover {
 #jokenpo {
   padding: 2.5rem;
   transition: all 0.5s ease;
-  background-image: url(/https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-rock-hand-96.png);
+  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-rock-hand-96.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
