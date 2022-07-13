@@ -148,96 +148,12 @@ button:hover {
   gap: 4rem;
 }
 
-.classProjeto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 6rem;
-  gap: 1.5rem;
-}
-
 #projetos {
   padding: 2rem;
 }
 
-#detetive:hover {
-  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-detetive.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#detetive {
-  padding: 2.5rem;
-  transition: all 0.5s ease;
-  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-detetive-90.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#jokenpo:hover {
-  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-paper-hand-96.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#jokenpo {
-  padding: 2.5rem;
-  transition: all 0.5s ease;
-  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-rock-hand-96.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#jornada:hover {
-  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-haltere.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#jornada {
-  padding: 2.5rem;
-  transition: all 0.5s ease;
-  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/haltercerto.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#velha:hover {
-  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/essetictacverde.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#velha {
-  padding: 2.5rem;
-  transition: all 0.5s ease;
-  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/essetictac.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#interativo:hover {
-  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-pokeball-aberto-96.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#interativo {
-  padding: 2.5rem;
-  transition: all 0.5s ease;
-  background-image: url(https://raw.githubusercontent.com/vGuerraF/Portfolio/master/assets/images/icons8-pokebola-96.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.classImg {
+  height: 90px;
 }
 
 #sectionTec {
@@ -255,6 +171,10 @@ button:hover {
 
 #tecnologias {
   padding: 2rem;
+}
+
+.classIcon {
+  transition: all 0.3s ease;
 }
 
 #html:hover {
@@ -304,10 +224,10 @@ footer {
 
 #footerName {
   color: #bfffea;
-  font-weight: 400;
+  font-weight: 600;
 }
 
-/* @media (max-width: 838px) {
+@media (max-width: 800px) {
   #image1 {
     height: 25rem;
   }
@@ -318,138 +238,3 @@ footer {
     justify-content: space-between;
   }
 }
-
-@media (max-width: 678px) {
-  #image1 {
-    height: 20rem;
-  }
-  #titulo {
-    width: 10rem;
-    font-size: 0.7rem;
-  }
-
-  header {
-    justify-content: space-between;
-  }
-}
-
-@media (max-width: 518px) {
-  #image1 {
-    height: 15rem;
-  }
-  #titulo {
-    width: 7rem;
-    font-size: 0.5rem;
-  }
-
-  #subtitulo {
-    font-size: 0.6rem;
-  }
-
-  header {
-    justify-content: space-between;
-  }
-} */
-
-/* @media (max-width: 390px) {
-  #image1 {
-    height: 12rem;
-  }
-  #titulo {
-    width: 5rem;
-    font-size: 0.4rem;
-  }
-
-  #subtitulo {
-    font-size: 0.4rem;
-  }
-
-  header {
-    justify-content: space-between;
-  }
-} */
-
-/* display: flex;
-  flex-direction: column;
-  width: 20rem;
-  font-size: 1rem;
-  margin: 2.5rem 0rem 0rem 0rem;
-  align-items: center; */
-/* @media (max-width: 667px) {
-  #image1 {
-    height: 14rem;
-  }
-  #titulo {
-    width: 11rem;
-    font-size: 0.7rem;
-  }
-}
-
-@media (max-width: 509px) {
-  #image1 {
-    height: 10rem;
-  }
-  #titulo {
-    width: 9rem;
-    font-size: 0.5rem;
-  }
-  main {
-    font-size: 0.7rem;
-  }
-  #sobremimsub {
-    font-size: 0.7rem;
-  }
-  button{
-    padding: 0.4rem;
-  }
-}
-
-@media (max-width: 375px) {
-  #image1 {
-    height: 7rem;
-  }
-  #titulo {
-    width: 8rem;
-    font-size: 0.4rem;
-  }
-}
-
-@media (max-width: 303px) {
-  #image1 {
-    height: 5rem;
-  }
-  #titulo {
-    width: 7rem;
-    font-size: 0.3rem;
-  }
-}
-
-@media (max-width: 280px) {
-  #image1 {
-    height: 4rem;
-  }
-  #titulo {
-    width: 6rem;
-    font-size: 0.2rem;
-  }
-
-  ul#menu div {
-    display: flex;
-    font-size: 0.2rem;
-  }
-
-  #portfolio a {
-    font-size: 0.4rem;
-  }
-}
-
-@media (max-width: 471px) {
-  ul#menu div {
-    display: flex;
-    font-size: 0.5rem;
-  }
-
-  #portfolio a {
-    font-size: 0.7rem;
-  }
-} */

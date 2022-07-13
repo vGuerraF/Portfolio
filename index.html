@@ -42,13 +42,15 @@
 
       <section id="sectionSm">
         <h2 id="sobremim">Sobre mim</h2>
-        <h3 id="sobremimsub">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo
-          molestiae voluptatum, veniam sapiente reprehenderit, nesciunt ab
-          ratione blanditiis consequuntur fuga impedit neque odit libero animi
-          officiis minus illo praesentium beatae similique enim vel eum!
-          Distinctio, ipsa! Tempore, repellat cum!
-        </h3>
+        <p id="sobremimsub">
+          Tenho 20 anos de idade;
+          <br>
+          Moro em Brasília - DF;
+          <br>
+          Atualmente sou aluno de Desenvolvimento Web na Blue EdTech;
+          <br>
+          Estou cursando Análise e Desenvolvimento de Sistemas na UniCEUB.
+        </p>
       </section>
 
       <section id="sectionCont">
@@ -63,7 +65,10 @@
 
           <picture>
             <a href="https://github.com/vGuerraF" target="_blank"
-              ><img src="./assets/images/icons8-github-30.png" alt="" />
+              ><img
+                src="./assets/images/icons8-github-30.png"
+                alt="icone github"
+              />
               <figcaption>vGuerraF</figcaption></a
             >
           </picture>
@@ -74,7 +79,7 @@
               target="_blank"
               ><img
                 src="./assets/images/icons8-linkedin-circundado-30.png"
-                alt=""
+                alt="icone linkedin"
               />
               <figcaption>vinicius-guerra-fernandes</figcaption></a
             ></picture
@@ -94,12 +99,19 @@
         <h2 id="tecnologias">Tecnologias</h2>
         <div id="divTec">
           <img
+            class="classIcon"
             id="html"
             src="./assets/images/icons8-html-100.png"
             alt="logo HTML"
           />
-          <img id="js" src="./assets/images/icons8-js-100.png" alt="logo JS" />
           <img
+            class="classIcon"
+            id="js"
+            src="./assets/images/icons8-js-100.png"
+            alt="logo JS"
+          />
+          <img
+            class="classIcon"
             id="css"
             src="./assets/images/icons8-css-100.png"
             alt="logo CSS"
@@ -111,53 +123,75 @@
         <h2 id="projetos">Projetos</h2>
 
         <div id="divProjeto">
-          <div class="classProjeto">
+          <div>
             <a
-              id="detetive"
               href="https://github.com/vGuerraF/projeto-0-Detetive.git"
               target="_blank"
-            ></a>
-            <h5>Detetive</h5>
-          </div>
-
-          <div class="classProjeto">
-            <a
-              id="jokenpo"
-              href="https://github.com/vGuerraF/Jokenpo"
-              target="_blank"
+              ><img
+                class="classImg"
+                id="detetive"
+                src="./assets/images/icons8-detetive-90.png"
+                alt=""
+              />
+              <figcaption>Detetive</figcaption></a
             >
-            </a>
-            <h5>Jokenpo</h5>
           </div>
 
-          <div class="classProjeto">
+          <div>
+            <a href="https://github.com/vGuerraF/Jokenpo" target="_blank">
+              <img
+                class="classImg"
+                id="jokenpo"
+                src="./assets/images/icons8-rock-hand-96.png"
+                alt=""
+              />
+              <figcaption>Jokenpo</figcaption>
+            </a>
+          </div>
+
+          <div>
             <a
-              id="jornada"
               href="https://github.com/vGuerraF/projeto-1-Jornada-do-heroi.git"
               target="_blank"
             >
+              <img
+                class="classImg"
+                id="jornada"
+                src="./assets/images/haltercerto.png"
+                alt=""
+              />
+              <figcaption>Jornada do Heroi</figcaption>
             </a>
-            <h5>Jornada do Heroi</h5>
           </div>
 
-          <div class="classProjeto">
+          <div>
             <a
-              id="velha"
               href="https://github.com/vGuerraF/Jogo-da-velha.git"
               target="_blank"
             >
+              <img
+                id="velha"
+                class="classImg"
+                src="./assets/images/essetictac.png"
+                alt=""
+              />
+              <figcaption>Jogo da Velha</figcaption>
             </a>
-            <h5>Jogo da Velha</h5>
           </div>
 
-          <div class="classProjeto">
+          <div>
             <a
-              id="interativo"
               href="https://github.com/vGuerraF/JogoInterativo.git"
               target="_blank"
             >
+              <img
+                class="classImg"
+                id="interativo"
+                src="./assets/images/icons8-pokebola-96.png"
+                alt=""
+              />
+              <figcaption>Jogo Interativo</figcaption>
             </a>
-            <h5>Jogo Interativo</h5>
           </div>
         </div>
       </section>
@@ -169,5 +203,7 @@
         <h3 id="footerName">Vinícius Guerra Fernandes</h3>
       </div>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
